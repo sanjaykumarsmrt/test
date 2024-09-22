@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    font-family: sans-serif;
+}
+#part-one{
+    height: auto;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box-one{
+    height: 25rem;
+    width: 50rem;
+    background-color: rgb(231, 112, 153);
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-two{
+    height: 25rem;
+    width: 50rem;
+    background-color: rgb(105, 201, 202);
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-one :nth-child(1){
+    font-size: 60px;
+    color: white;
+}
+
+.box-one :nth-child(2){
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.box-two-logo{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.box-two-logo :nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-two-content{
+    width: 49%;
+    height: auto;
+    color: white; 
+}
+
+.box-two-content p{
+    margin-top: 70px;
+}
+
+#part-two{
+    position: relative;
+    width: auto;
+}
+
+.nav-select{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 28rem;
+}
+
+.nav-select a{
+    color: rgb(105, 201, 202);
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.nav-select :nth-child(4){
+    color: rgb(231, 112, 153);
+}
+
+#part-three{
+    margin-top: 20px;
+    display: flex;
+    
+    align-items: center;
+}
+#part-three img{
+    height: 300px;
+    width: 300px;
+}
+
+@media (min-width: 250px) and (max-width: 900px){
+     
+    .box-one{
+        height: 15rem;
+        width: 35rem;
+    }
+
+    .box-two{
+        height: auto;
+        width: 35rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-two-content p{
+        font-size: 11.5px;
+        margin-top: 15px;
+    }
+
+    .nav-select{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+
+   
+}
